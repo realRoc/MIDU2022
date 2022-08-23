@@ -5,10 +5,14 @@
 
 目前的研究方向：
 
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/1.%20ct_methods.png)
+
 * 训练数据自动构造：错误与正确文本数据 pair ，数据增强来逼近业务分布。
 
 * 序列标注纠错：基于 token 进行增删改。
 * 文本生成纠错：利用生成模型直接基于错误样本生成正确文本。
+
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/2.%20ct_models.png)
 
 ## 2. 中文错别字检查 [1]
 中文错别字纠错（ Chinese Spelling Error Check ）的输入输出是完全对齐的，也就是错一个字改一个字。
@@ -30,9 +34,15 @@
 
 错纠情况很多！
 
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/3.%20UIE_error.png)
+
 （trick：针对A榜数据调研时发现，预处理中使用 zhconv 先将繁体字转为简体字，效果会不错。）
 
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/4.%20UIE_trick.png)
+
 ### 3.3 pycorrector (macbert) [5]
+
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/5.%20macbert_masking_strategies.png)
 
 1、原始的mask策略不用多废话了；
 
@@ -49,6 +59,8 @@ mac masking采用相似词进行代替【MASK】，这种切词MASK方式+同义
 
 
 ## 4. 文本纠错大赛方案
+
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/6.%20ct_errors.png)
 
 我们基本继承了 Baseline 的思想框架，在实验中我们发现使用 ernie-csc 模型针对错别字进行纠错的效率比不上 macbert 模型；
 
@@ -71,7 +83,7 @@ data 文件夹下的 same_pinyin 还记载了我们对同音同形混淆集解�
 
 本项目出于技术整理和竞赛复盘的角度，欢迎大家一起学习讨论进步。
 
-如果有任何问题，欢迎提 issue。
+如果有任何问题，欢迎提 issue ~
 
 
 
