@@ -5,12 +5,12 @@
 
 目前的研究方向：
 
-![image](https://github.com/realRoc/MIDU2022/blob/main/pic/1.%20ct_methods.png)
-
 * 训练数据自动构造：错误与正确文本数据 pair ，数据增强来逼近业务分布。
 
 * 序列标注纠错：基于 token 进行增删改。
 * 文本生成纠错：利用生成模型直接基于错误样本生成正确文本。
+
+![image](https://github.com/realRoc/MIDU2022/blob/main/pic/1.%20ct_methods.png)
 
 ![image](https://github.com/realRoc/MIDU2022/blob/main/pic/2.%20ct_models.png)
 
