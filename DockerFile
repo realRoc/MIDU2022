@@ -1,0 +1,4 @@
+FROM paddlecloud/paddlenlp:develop-gpu-cuda11.2-cudnn8-latest
+MAINTAINER roc
+RUN pip install --upgrade paddlenlp
+RUN pip install paddlepaddle paddlehub lac
