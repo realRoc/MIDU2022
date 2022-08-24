@@ -91,9 +91,15 @@ data 文件夹下的 same_pinyin 还记载了我们对同音同形混淆集解�
 ## 参考文献：
 
 [1]. 文本语法纠错不完全调研：学术界 v.s. 工业界最新研究进展，[https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q](https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q)
+
 [2]. Revisiting Pre-trained Models for Chinese Natural Language Processing，[https://arxiv.org/pdf/2004.13922.pdf](https://arxiv.org/pdf/2004.13922.pdf)
+
 [3]. 文本智能校对Baseline，千鹤，[https://aistudio.baidu.com/aistudio/projectdetail/4340298](https://aistudio.baidu.com/aistudio/projectdetail/4340298)
+
 [4]. PaddleNLP信息抽取技术重磅升级！开放域信息抽取来了！三行代码用起来~，[https://aistudio.baidu.com/aistudio/projectdetail/3914778](https://aistudio.baidu.com/aistudio/projectdetail/3914778)
+
 [5]. pycorrector，[https://github.com/shibing624/pycorrector](https://github.com/shibing624/pycorrector)
+
 [6]. MuCGEC: A Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction & SOTA Models，[https://github.com/HillZhang1999/MuCGEC](https://github.com/HillZhang1999/MuCGEC)
+
 [7]. 竞赛大神易显维：带你深度认知文本校对和文本纠错问题，[https://www.bilibili.com/video/BV1fe4y1X7XW](https://www.bilibili.com/video/BV1fe4y1X7XW)
